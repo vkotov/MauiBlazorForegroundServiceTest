@@ -218,7 +218,7 @@ namespace MudBlazor
         {
             if (_isInitialized == false) { return; }
 
-            await _jsRuntime.InvokeVoidAsyncWithErrorHandling("mudPopover.dispose");
+            //await _jsRuntime.InvokeVoidAsyncWithErrorHandling("mudPopover.dispose");
         }
     }
 }
